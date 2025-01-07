@@ -1,0 +1,136 @@
+// themes.scss
+
+// Base theme variables
+:root {
+  --primary-color: #1a73e8;
+  --primary-color-hover: #93a9c5;
+  --secondary-color: #ff5722;
+  --background-color: #FAFAFA;
+  --card-background-color: #FFFFFF;
+  --border-color: #DEDEDE;
+  --text-color: #161616;
+  --text-secondary-color: #525252;
+  --hover-background-color: rgba(26, 115, 232, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #333333;
+}
+
+// Red theme
+.red-theme {
+  --primary-color: #e53935;
+  --primary-color-hover: #cc7878;
+  --secondary-color: #ffeb3b;
+  --background-color: #ffebee;
+  --card-background-color: #ffffff;
+  --border-color: #f44336;
+  --text-color: #212121;
+  --text-secondary-color: #757575;
+  --hover-background-color: rgba(229, 57, 53, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #b71c1c;
+}
+
+// Blue theme
+.blue-theme {
+  --primary-color: #1a73e8;
+  --primary-color-hover: #aecaee;
+  --secondary-color: #057cb3;
+  --background-color: #d3ebfc;
+  --card-background-color: #ffffff;
+  --border-color: #1e88e5;
+  --text-color: #ffffff;
+  --text-secondary-color: #cdf5ff;
+  --hover-background-color: rgba(26, 115, 232, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #1565c0;
+}
+
+// Light theme
+.light-theme {
+  --primary-color: #6dd9f7;
+  --primary-color-hover: #e4ecf0;
+  --secondary-color: #9dd8ff;
+  --background-color: #fafafa;
+  --card-background-color: #6dd9f7;
+  --border-color: #38abf8;
+  --text-color: #212121;
+  --text-secondary-color: #757575;
+  --hover-background-color: rgba(255, 255, 255, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #6dd9f7;
+}
+
+// Dark theme
+.dark-theme {
+  --primary-color: #212121;
+  --primary-color-hover: #5e5d5d;
+  --secondary-color: #ff5722;
+  --background-color: #303030;
+  --card-background-color: #424242;
+  --border-color: #616161;
+  --text-color: #ffffff;
+  --text-secondary-color: #bdbdbd;
+  --hover-background-color: rgba(33, 33, 33, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #424242;
+}
+
+// White-Blue theme
+.white-blue-theme {
+  --primary-color: #1a73e8;
+  --primary-color-hover: #849cbb;
+  --secondary-color: #ff5722;
+  --background-color: linear-gradient(to bottom, #ffffff, #1a73e8);
+  --card-background-color: #ffffff;
+  --border-color: #1e88e5;
+  --text-color: #212121;
+  --text-secondary-color: #757575;
+  --hover-background-color: rgba(26, 115, 232, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #1565c0;
+}
+
+// White-Yellow theme
+.white-yellow-theme {
+  --primary-color: #948503;
+  --primary-color-hover: #fff5ca;
+  --secondary-color: #ff5722;
+  --background-color: linear-gradient(to bottom, #ffffff, #948503);
+  --card-background-color: #f6f8d9;
+  --border-color: #707070;
+  --text-color: #212121;
+  --text-secondary-color: #757575;
+  --hover-background-color: rgba(255, 235, 59, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #ac9b04;
+}
+
+// Red-Black theme
+.red-black-theme {
+  --primary-color: #e53935;
+  --primary-color-hover: #d87d7d;
+  --secondary-color: #ffeb3b;
+  --background-color: linear-gradient(to bottom, #e53935, #000000);
+  --card-background-color: #eecdcd;
+  --border-color: #f44336;
+  --text-color: #ffffff;
+  --text-secondary-color: #bdbdbd;
+  --hover-background-color: rgba(229, 57, 53, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #b71c1c;
+}
+
+// White-Orange-Blue theme
+.white-orange-blue-theme {
+  --primary-color: #ff5722;
+  --primary-color-hover: #eca089;
+  --secondary-color: #1a73e8;
+  --background-color: linear-gradient(to bottom, #ffffff, #f37c58, #1a73e8);
+  --card-background-color: #f8d5a1;
+  --border-color: #f37c58;
+  --text-color: #ffffff;
+  --text-secondary-color: #757575;
+  --hover-background-color: rgba(255, 87, 34, 0.1);
+  --shadow-color: rgba(86, 86, 86, 0.1);
+  --drawer-background-color: #f37c58;
+}

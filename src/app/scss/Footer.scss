@@ -1,0 +1,55 @@
+// Footer.scss
+
+// Footer container
+.app-footer {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem; // Adjusted height
+  position: relative;
+}
+
+// Footer content
+.footer-content {
+  display: flex;
+  justify-content: center; // Center horizontally
+  align-items: center; // Center vertically
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+// Footer links
+.footer-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center; // Center vertically
+}
+
+// Footer link item
+.footer-links li {
+  margin: 0 1rem;
+}
+
+// Separator between footer links
+.footer-links li+li::before {
+  content: '|';
+  padding: 0 1rem;
+}
+
+// Footer link
+.footer-links li a {
+  color: #ffffff !important;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+
+// Hover effect for footer link
+.footer-links li a:hover {
+  color: #cccccc !important;
+}

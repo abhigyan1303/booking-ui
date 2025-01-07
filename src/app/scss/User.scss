@@ -1,0 +1,173 @@
+.user-management {
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.add-user-button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.add-user-button i {
+  margin-right: 0.5rem;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-button,
+.edit-button,
+.delete-button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.view-button:hover,
+.edit-button:hover,
+.delete-button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 0.25rem;
+}
+
+.pagination button.active {
+  background-color: var(--primary-color-hover);
+}
+
+.view-popup,
+.edit-popup,
+.add-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-popup-content,
+.edit-popup-content,
+.add-popup-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.view-popup-content h2,
+.edit-popup-content h2,
+.add-popup-content h2 {
+  margin-top: 0;
+}
+
+.view-popup-content label,
+.edit-popup-content label,
+.add-popup-content label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.view-popup-content input,
+.edit-popup-content input,
+.add-popup-content input,
+.add-popup-content select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; // Two columns
+  gap: 1rem;
+}
+
+.form-grid label {
+  display: flex;
+  flex-direction: column;
+}
+
+.view-popup-content button,
+.edit-popup-content button,
+.add-popup-content button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.view-popup-content button:hover,
+.edit-popup-content button:hover,
+.add-popup-content button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+  grid-column: span 2;
+}
